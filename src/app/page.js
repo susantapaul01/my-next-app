@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <>
-      <h1>Home page</h1>
+      <h1 className="text-center">Welcome this is a simple Home page</h1>
     </>
   )
 }

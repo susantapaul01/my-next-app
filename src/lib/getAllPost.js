@@ -1,6 +1,6 @@
 export default async function getAllpost() {
     console.log("Fetching data build...");
-    const url = "https://jsonplaceholder.typicode.com/posts?_limit=10";
+    const url = "https://jsonplaceholder.typicode.com/posts?_limit=15";
     const response = await fetch(url);
 
     if(!response.ok) {
